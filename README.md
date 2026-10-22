@@ -105,10 +105,10 @@ Tested on standard hardware (`Intel Core i5-8300H`, 8 threads, 16.2 GB RAM, `flo
 The entire test suite is self-contained in standard Rust 1.81 with zero external dependencies:
 
 ```sh
-git clone https://github.com/JesseBrown1980/Asolaria-vs-Williow-chip-Results
-cd Asolaria-vs-Williow-chip-Results
+git clone https://github.com/JesseBrown1980/Asolaria-12.5-B-full-power-vrs-Willow-Chip
+cd Asolaria-12.5-B-full-power-vrs-Willow-Chip
 
-# Run the 10-run suite in Release mode:
+# Run the 10-run suite & 12.5-Billion-Qubit Plane verifier in Release mode:
 cargo run --release
 ```
 
